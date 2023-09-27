@@ -1,0 +1,11 @@
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git config user.name "cortez1979"
+
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git config user.email "maximo.yulan1979@hotmail.com"
+
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git remote add origin "https://github.com/cortez1979/ejercicio1.git"
+
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$
