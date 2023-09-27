@@ -8,4 +8,46 @@ maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
 $ git remote add origin "https://github.com/cortez1979/ejercicio1.git"
 
 maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
-$
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ejercicio2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git add ejercicio2.txt
+
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ejercicio2.txt
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git commit -m "TP_maxicortez"
+[master (root-commit) ef43a35] TP_maxicortez
+ 1 file changed, 11 insertions(+)
+ create mode 100644 ejercicio2.txt
+maxim@DESKTOP-8DI6ASR MINGW64 ~/OneDrive/Escritorio/GIT (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 406 bytes | 406.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/cortez1979/ejercicio1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+
+
